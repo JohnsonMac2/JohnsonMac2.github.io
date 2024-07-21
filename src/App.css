@@ -1,42 +1,65 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background:rgb(18, 13, 29);
+}
+
+::-webkit-scrollbar-thumb {
+  background:rgb(188, 185, 199);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(117, 117, 124, 0.91);
+  border-radius: 10px;
+}
+
 .webPage {
-  margin-top: 300px;
+  color:white;
+  margin-top: 100px;
+  font-size: 20px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .firstHalf {
   float: left;
-  margin-inline-start: 500px;
+  margin-inline-start: 250px;
+  font-size: 25px;
+}
+
+.secondHalf {
+  margin-inline-start: 250px;
+  margin-top: 100px;
 }
 
 .title {
-  font-size: 100px;
-  margin-bottom: -50px;
+
 }
 
 .complimentaryImage {
-  margin-top: 100px;
-  margin-inline-start: 150px;
-  height: 700px;
+  margin-top: 10px;
+  margin-inline-start: 50px;
+  width: 700px;
 }
 
 .occupationDescription {
-  margin-bottom: -30px;
-  font-size: 50px;
 }
 
 .birthLocation {
-  font-size: 50px;
+
 }
 
 .aboutMeBookmark {
-  font-size: 40px;
+
 }
 .projectsBookmark {
-  font-size: 40px;
+
 }
 
 .resumeBookmark {
-  font-size: 40px;
+
 }
 
 .wciLink:link {
@@ -50,7 +73,8 @@
 }
 
 .wciLink:hover {
-  color: green;
+  color: chartreuse;
+  text-shadow: 0px 0px 2px yellow;
   text-decoration: none;
 }
 
@@ -58,37 +82,56 @@
   color: green;
   text-decoration: none;
 }
+
 .aboutMeOne {
-  font-size: 35px;
-  margin-top: 200px;
-  
+  font-size: 20px;
 }
 
 .complimentaryImageTwo {
-  height: 700px;
-  margin-top: 200px;
-  margin-inline-start: 500px;
-  margin-inline-end: 60px;
-  margin-bottom: 50px;
+  margin-inline-end: 30px;
+  text-wrap: 200px;
+  width: 500px;
   float: left;
 }
 
 .projectHeading {
   clear: left;
-  font-size: 40px;
-  margin-top: 300px;
   text-align: center;
+  margin-top: 400px;
+  font-size: 40px;
 }
 
-.websiteImage {
+.projectOneImage {
   float: left;
-  width: 1000px;
-  margin-inline-start: 900px;
+  margin-inline-start: 250px;
+  margin-inline-end: 20px;
   border-style: solid;
   border-color: green;
-  margin-inline-end: 100px;
 }
 
 .projectOneDescription {
-  font-size: 35px;
+  color: green;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+/* NAVBAR */
+
+nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(26, 20, 50);
+}
+
+nav a {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color:green;
+}
+
+nav a:hover {
+  font-size: 20px;
+  color: chartreuse;
+  text-shadow: 0px 0px 2px yellow;
 }

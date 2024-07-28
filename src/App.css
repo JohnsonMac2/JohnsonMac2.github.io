@@ -34,32 +34,10 @@
   margin-top: 100px;
 }
 
-.title {
-
-}
-
 .complimentaryImage {
   margin-top: 10px;
   margin-inline-start: 50px;
   width: 700px;
-}
-
-.occupationDescription {
-}
-
-.birthLocation {
-
-}
-
-.aboutMeBookmark {
-
-}
-.projectsBookmark {
-
-}
-
-.resumeBookmark {
-
 }
 
 .wciLink:link {
@@ -84,7 +62,7 @@
 }
 
 .aboutMeOne {
-  font-size: 20px;
+  font-size: clamp(20px, 10vw, 25px);
 }
 
 .complimentaryImageTwo {
@@ -134,4 +112,34 @@ nav a:hover {
   font-size: 20px;
   color: chartreuse;
   text-shadow: 0px 0px 2px yellow;
+}
+
+@media screen and (max-width: 600px) {
+  .firstHalf {
+    float: none;
+    margin-inline-start: 250px;
+    font-size: 25px;
+  }
+
+  .complimentaryImageTwo {
+    margin-inline-end: 30px;
+    text-wrap: 200px;
+    width: 500px;
+    float: none;
+  }
+  
+  .projectHeading {
+    clear:  none;
+    text-align: center;
+    margin-top: 400px;
+    font-size: 40px;
+  }
+  
+  .projectOneImage {
+    float: none;
+    margin-inline-start: 250px;
+    margin-inline-end: 20px;
+    border-style: solid;
+    border-color: green;
+  }
 }
